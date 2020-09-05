@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WK02HW01</string>
+    <string name="welcome">Welcome</string>
+    <string name="name_hint">name</string>
+    <string name="password_hint">password</string>
+    <string name="landing_welcome">Welcome! You have made it.</string>
+    <string name="login">Login</string>
+
+</resources>
