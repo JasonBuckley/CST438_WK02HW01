@@ -41,7 +41,7 @@ public class ExampleInstrumentedTest {
 
     @Test
     public void testCompareCredentialsAndAuth(){
-
+        // creating testUsers
         boolean testUser[] = LoginUtil.compareCredentials("Admin", "Password");
         boolean testUser2[] = LoginUtil.compareCredentials("admin", "Password");
         boolean testUser3[] = LoginUtil.compareCredentials("Admin","password");
