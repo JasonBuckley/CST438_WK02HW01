@@ -19,6 +19,12 @@ allprojects {
     }
 }
 
+tasks.whenTaskAdded { task ->
+    if (task.name == 'connectedDebugAndroidTest') {
+        task.finalizedBy AndroidShowTestResults
+    }
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
